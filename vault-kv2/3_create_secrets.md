@@ -8,9 +8,9 @@
 
 * Create various secret versions
 
-`vault kv put apps/data/my-secret data=v1`{{execute T2}}
+`vault kv put apps/my-secret data=v1`{{execute T2}}
 
-`vault kv put apps/data/my-secret data=v2`{{execute T2}}
+`vault kv put apps/my-secret data=v2`{{execute T2}}
 
-`vault kv put apps/data/my-secret data=v3`{{execute T2}}
+`vault kv put apps/my-secret data=v3`{{execute T2}}
 
