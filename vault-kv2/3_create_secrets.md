@@ -1,7 +1,3 @@
-* Login with the new token
-
-`vault login $APPS_TOKEN`{{execute T2}}
-
 * Check capabilities against the secret engine
 
 `vault token capabilities apps`{{execute T2}}
