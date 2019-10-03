@@ -1,0 +1,60 @@
+{
+  "pathwayTitle": "Learn HashiCorp Vault",
+  "title": "Vault Playground",
+  "description": "HashiCorp Vault environment to explore Vault CLI",
+  "difficulty": "beginner",
+  "icon": "fa-vault",
+  "details": {
+    "steps": [
+      {
+        "title": "Start the Vault Server",
+        "text": "getting-started.md"
+      },
+      {
+        "title": "Setup the environment",
+        "text": "1_environment.md"
+      },
+      {
+        "title": "Create a token with the policy",
+        "text": "2_create_token.md"
+      },
+      {
+        "title": "Create a secret",
+        "text": "3_create_secrets.md"
+      },
+      {
+        "title": "Fix the policy",
+        "text": "4_fix_policy.md"
+      },
+      {
+        "title": "Test the fixes",
+        "text": "5_retry_deleting.md"
+      }      
+    ],
+    "assets": {
+      "client": [
+        {
+          "file": "apps.hcl",
+          "target": "~/"
+        }
+      ]
+    },
+    "intro": {
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "https://www.vaultproject.io"
+    },
+    "finish": {
+      "text": "finish.md",
+      "credits": "https://www.vaultproject.io"
+    }
+  },
+  "environment": {
+      "showdashboard": true,
+      "uilayout": "editor-terminal",
+      "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
