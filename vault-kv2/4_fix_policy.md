@@ -3,11 +3,11 @@ The documentation to delete for the CLI is at: https://www.vaultproject.io/docs/
 # Try to delete v2
 
 
-`vault kv delete -versions=2 apps/data/my-secret`{{execute T2}}
+`vault kv delete -versions=2 apps/my-secret`{{execute T2}}
 
 # Try to delete the last version
 
-`vault kv delete apps/data/my-secret`{{execute T2}}
+`vault kv delete apps/my-secret`{{execute T2}}
 
 # Modify policy to permit deleting any version
 The METHOD to delete versions is DELETE	to the endpoint /apps/data/:path
