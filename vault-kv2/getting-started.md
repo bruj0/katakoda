@@ -27,8 +27,8 @@ vault login root
 **Now, you are ready to explore Vault CLI!**
 
 <br>
-##
-UI is at: https://[[HOST_SUBDOMAIN]]-8200-[[KATACODA_HOST]].environments.katacoda.com/
+## Vault UI
+Can be accessed at: https://[[HOST_SUBDOMAIN]]-8200-[[KATACODA_HOST]].environments.katacoda.com/
 
 ## Useful Links
 
