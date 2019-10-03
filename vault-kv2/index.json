@@ -1,7 +1,7 @@
 {
-  "pathwayTitle": "Learn HashiCorp Vault",
-  "title": "Vault Playground",
-  "description": "HashiCorp Vault environment to explore Vault CLI",
+  "pathwayTitle": "Learn HashiCorp Vault KV secret engine version 2",
+  "title": "Vault KV version 2 secret engine",
+  "description": "HashiCorp Vault KV version 2",
   "difficulty": "beginner",
   "icon": "fa-vault",
   "details": {
