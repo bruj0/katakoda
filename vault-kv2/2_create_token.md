@@ -7,5 +7,5 @@
 
 * Login with the token
 
-`vault login $APPS_TOKEN`
+`vault login $APPS_TOKEN`{{execute T2}}
 

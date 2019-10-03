@@ -8,10 +8,6 @@ path "apps/data/*" {
 capabilities = ["create", "read", "update", "delete", "list"]
 }
 
-path "apps/delete/*" {
-capabilities = [ "update" ]
-}
-
 # Allow devs to list data under the kv/apps tree
 path "apps/metadata/*" {
 capabilities = ["list"]

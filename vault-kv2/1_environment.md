@@ -36,5 +36,6 @@ capabilities = ["list"]
 
 
 * Write the policy
+
 `vault policy write apps apps.hcl`{{execute T2}}
 
