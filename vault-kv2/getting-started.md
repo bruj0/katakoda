@@ -3,7 +3,7 @@ Enter the following command to start the Vault server in development mode.
 > Click on the command (`⮐`) will automatically copy it into the terminal and execute it.
 
 ```
-vault server -dev -dev-root-token-id="root"
+vault server -dev -dev-root-token-id="root" -dev-listen-address=0.0.0.0:8200
 ```{{execute T1}}
 
 ## Login with root token
@@ -27,6 +27,8 @@ vault login root
 **Now, you are ready to explore Vault CLI!**
 
 <br>
+##
+UI is at: https://[[HOST_SUBDOMAIN]]-8200-[[KATACODA_HOST]].environments.katacoda.com/
 
 ## Useful Links
 

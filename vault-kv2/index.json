@@ -51,8 +51,9 @@
   },
   "environment": {
       "showdashboard": true,
-      "uilayout": "terminal-terminal",
-      "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+      "uilayout": "editor-terminal",
+      "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n",
+      "dashboards": [{"name": "UI port 8200", "port": 8200}],
   },
   "backend": {
     "imageid": "ubuntu"
