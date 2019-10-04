@@ -1,11 +1,10 @@
 # Setting up the environment
-* Enable the kv2 secret engine and mount it at apps
+## Enable the kv2 secret engine and mount it at apps
 
 `vault secrets enable -version=2 -path=apps kv`{{execute T2}}
 
-* Inspect the base policy
-
-`apps.hcl`{{open}}
+## Inspect the base policy
+Open the file by clicking here: `apps.hcl`{{open}}
 
 ```
 # Allow devs to see the attributes on their token
@@ -33,9 +32,7 @@ capabilities = ["list"]
 }
 ```
 
-
-
-* Write the policy
+# Write the policy
 
 `vault policy write apps apps.hcl`{{execute T2}}
 
